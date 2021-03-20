@@ -86,12 +86,12 @@ else if (q6 == myNumber)
           score++;
           break;
       }
-  }
-  if (correct)
-  {
-      alert('correct answer');
-      break;
-  }
+        }
+        if (correct)
+        {
+            alert('correct answer');
+            break;
+        }
 
 
   

@@ -1,0 +1,54 @@
+body
+{
+    font-size: 20px;
+
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  header ul li {
+    float: left;
+  }
+  
+  header ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  header ul li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+main ol li {list-style-type: decimal; }
+
+
+.coloSpace {width: 100%; height: 450px; background-color: aqua;}
+
+section ul {
+    padding: 40px;
+    line-height: 30px;
+}
+section ul li {
+    list-style-type: circle; 
+    
+}
+ol li {list-style-type: decimal; padding: 10px;}
+
+footer{
+    background-color: #333;
+    text-align: center;
+    padding: 15px;
+}
